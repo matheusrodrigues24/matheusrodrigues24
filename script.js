@@ -4,7 +4,7 @@ document.getElementById('whatsappForm').addEventListener('submit', function(even
     const message = document.getElementById('message').value.trim();
 
     // Número de telefone fixo desejado (alterar para o número de sua escolha)
-    const phoneNumber = '559999999999'; // Exemplo: 55 + DDD + número do WhatsApp
+    const phoneNumber = '51998694371'; // Exemplo: 55 + DDD + número do WhatsApp
 
     // Verifica se a mensagem não está vazia
     if (message) {

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento para WhatsApp</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adicionando o link da logo do WhatsApp -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" type="image/svg+xml">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="whatsapp-logo">
+            <h1>Redirecionamento para WhatsApp</h1>
+        </div>
+        
+        <form id="whatsappForm">
+            <div class="form-group">
+                <label for="message">Mensagem Personalizada:</label>
+                <textarea id="message" placeholder="Digite sua mensagem aqui" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-primary">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo" class="btn-logo">
+                Enviar Mensagem
+            </button>
+        </form>
+        
+        <div id="redirectMessage" class="status-message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
